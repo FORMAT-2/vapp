@@ -753,7 +753,7 @@ With all my love,
                 unlockAchievement('Love Letter', 'Read a heartfelt message!');
               }, 1000);
             }}
-            onMouseMove={addSparkle}
+            ////onMouseMove={addSparkle}
           >
             See Our Memories 📸
           </button>
@@ -791,7 +791,7 @@ With all my love,
             setCurrentScreen('final');
             unlockAchievement('Memory Master', 'Explored all our special moments!');
           }}
-          onMouseMove={addSparkle}
+          //onMouseMove={addSparkle}
         >
           One Last Surprise 🎁
         </button>
@@ -817,7 +817,7 @@ With all my love,
               clickSoundRef.current.play().catch(console.error);
               unlockAchievement('True Love', 'Said YES to love! 💖');
             }}
-            onMouseMove={addSparkle}
+            //onMouseMove={addSparkle}
           >
             Yes! 💖
           </button>
